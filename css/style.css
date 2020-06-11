@@ -1,21 +1,33 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Bebas+Neue&family=Montserrat:wght@800&display=swap');
 
 /* Components */
 @import url('components/navigation.css');
 
 body {
-  font-family: 'Fira Sans', sans-serif;
-  color: #212631;
   margin-top: 32px;
 }
 
 h1 {
   font-size: 70px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #444440;
+}
+
+p {
+  font-family: 'Amiko', sans-serif;
 }
 
 .half-highlight {
   background: linear-gradient(to top, #6B9080 50%, transparent 50%);
-  /* background-color: #6B9080; */
+}
+
+#about {
+  margin-top: 64px;
+  width: 60%;
 }
 
