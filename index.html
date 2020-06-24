@@ -7,63 +7,86 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/svg" href="https://image.flaticon.com/icons/svg/2572/2572648.svg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   </head>
   
   <body>
-    <div class="container">
-      <div class="header d-flex justify-content-around">
-        <div>
-          <h1><</h1>
-        </div>
-
-        <div class="info">
-          <h1 class="half-highlight">Stephanie Diep</h1>
-          <p>Junior fullstack developer</p>
-        </div>
-
-        <div class="home-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-        </div>
+    <!-- <div class="my-navbar d-flex justify-content-end">
+      <div class="navbar-links">
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
       </div>
+    </div> -->
 
-      <div id="about">
-        <h2>/ WHO AM I?</h2>
-        <p>After working in the events industry and as a marketing coordinator, I wanted to pursue a career in IT. That's why I decided to learn to code, and here I am now! <br><br>
-        I am a junior fullstack developer <strong>looking for a job</strong> as frontend, backend or fullstack developer, and for <strong>freelance</strong> projects as well!</p>
+    <div class="header container d-flex align-items-center justify-content-between">
+      <!-- <div class="home-pic ">
+        <img src="images/builder.svg" alt="Woman building a website">
+      </div> -->
+      <div class="name">
+        <h1>Hi, my name is Stephanie.</h1>
       </div>
-
-      <div id="projects">
-        <h2>/ WHAT HAVE I WORKED ON?</h2>
-        <div class="d-flex justify-content-center flex-column align-items-center">
-          <div class="project d-flex align-items-center justify-content-between">
-            <img src="images/heymisscocktail.png">
-            <div class="project-info">
-              <a href="http://heymisscocktail.herokuapp.com/" target="_blank"><strong>Hey Miss Cocktail</strong>
-              <p>An application to add cocktails and cocktail recipes.</p></a>
-            </div>
-          </div>
-
-          <div class="project d-flex align-items-center justify-content-between">
-            <div class="project-info">
-              <a href="http://www.dontdiefood.com" target="_blank"><strong>Don't Die Food</strong>
-              <p>A mobile application to save food - users can either search for recipes with the ingredients they wish to save, or they can give away food they don't need anymore.</p></a>
-            </div>
-            <img src="images/dontdiefood.png">
-          </div>
-
-          <div class="project d-flex align-items-center justify-content-between">
-            <img src="images/blockwagon.png">
-            <div class="project-info">
-              <a href="http://blockwagon.herokuapp.com/" target="_blank"><strong>Blockwagon</strong>
-              <p>An application to rent videocassettes between users.</p></a>
-            </div>
-          </div>
-        </div>
+      <div class="arrow">
+        <p>Scroll down!</p>
+        <a href="#about"><img src="images/arrow.gif" alt="Animated arrow pointing down", id="arrow-img"></a>
       </div>
+    </div>
 
-      <h1>/></h1>
+    <div class="container d-flex align-items-center justify-content-between" id="about">
+      <div>
+        <h2>I am a junior full stack developer.</h2>
+        <p>I love everything tech-related.</p>
+      </div>
+      <div class="arrow">
+        <p>Keep on scrolling!</p>
+        <a href="#experience"><img src="images/arrow.gif" alt="Animated arrow pointing down", id="arrow-img"></a>
+      </div>
+    </div>
 
+    <div class="container d-flex align-items-center justify-content-between" id="experience">
+      <div class="card shadow">
+        <h3><span class="half-highlight">Languages</span></h3>
+        <ul>
+          <li>Ruby 
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="not-colored-square"></i>
+          </li>
+          <li>HTML 
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="not-colored-square"></i>
+          </li>
+          <li>CSS 
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="not-colored-square"></i>
+          </li>
+          <li>JavaScript 
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="not-colored-square"></i>
+            <i class="fas fa-square-full" id="not-colored-square"></i>
+          </li>
+        </ul>
+        <p><strong>Currently learning: </strong></p>
+        <ul>
+          <li>Python
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="colored-square"></i>
+            <i class="fas fa-square-full" id="not-colored-square"></i>
+            <i class="fas fa-square-full" id="not-colored-square"></i>
+          </li>
+        </ul>
+      </div>
     </div>
 
   </body>

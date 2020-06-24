@@ -1,0 +1,20 @@
+#experience {
+  height: 100vh;
+}
+
+#experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+#colored-square {
+  color: #f4b83f;
+}
+
+#not-colored-square {
+  color: rgb(211, 211, 211);
+}
+
+#experience i {
+  font-size: 12px;
+}

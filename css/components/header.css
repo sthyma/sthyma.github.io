@@ -1,0 +1,15 @@
+.header {
+  height: 100vh;
+  transition: 0.3s;
+  position: relative;
+}
+
+#arrow-img {
+  width: 100px;
+}
+
+.header .arrow {
+  position: absolute;
+  left: 930px;
+  top: 570px;
+}

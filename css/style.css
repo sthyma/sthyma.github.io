@@ -1,40 +1,27 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Bebas+Neue&family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* Components */
-@import url('components/navigation.css');
-@import url('components/project_card.css');
-
-body {
-  margin-top: 32px;
-}
+@import url('components/navbar.css');
+@import url('components/about.css');
+@import url('components/header.css');
+@import url('components/experience.css');
+@import url('components/card.css');
 
 h1 {
-  font-size: 70px;
-  font-family: 'Bebas Neue', cursive;
+  /* font-size: 70px; */
+  font-family: 'Roboto Slab', serif;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Slab', serif;
   color: #444440;
 }
 
 p {
-  font-family: 'Amiko', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 .half-highlight {
-  background: linear-gradient(to top, #6B9080 50%, transparent 50%);
+  background: linear-gradient(to top, #f4b83f 50%, transparent 50%);
 }
-
-#about, #projects {
-  margin-top: 64px;
-  /* width: 60%; */
-}
-
-/* a:hover {
-  text-decoration: none;
-  color: #6B9080;
-  background-color: #CCE3DE;
-  padding-left: 8px;
-} */
