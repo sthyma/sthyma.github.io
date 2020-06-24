@@ -1,0 +1,44 @@
+#experience {
+  height: 100vh;
+  padding-top: 32px;
+}
+
+#experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+#colored-square {
+  color: #f4b83f;
+}
+
+#not-colored-square {
+  color: rgb(211, 211, 211);
+}
+
+#experience i {
+  font-size: 12px;
+}
+
+#experience-links i {
+  color: black;
+  font-size: 16px;
+  margin-right: 12px;
+}
+
+#experience-links a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+#experience-links p {
+  /* text-align: center; */
+  font-size: small;
+  margin-bottom: 2px;
+}
+
+#experience-links a:hover {
+  color: #f4b83f;
+  font-weight: bolder;
+}

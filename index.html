@@ -2,36 +2,301 @@
 <html>
   <head>
     <title>Stephanie Diep - Fullstack web developer</title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg" href="https://image.flaticon.com/icons/svg/2572/2572648.svg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   </head>
-
+  
   <body>
-    <div class="container">
-      <div class="header d-flex justify-content-around">
-        <div class="info">
-          <h1 class="half-highlight">Stephanie Diep</h1>
-          <p>Junior fullstack developer</p>
-        </div>
-
-        <div class="home-links">
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-        </div>
+    <!-- Intro section -->
+    <div class="container d-flex align-items-center justify-content-between" id="header">
+      <div class="name">
+        <h1>Hi, my name is Stephanie.</h1>
       </div>
-
-      <div class="about-section">
-        <h2>Who am I?</h2>
-        <p>I am a junior fullstack developer <strong>looking for a job</strong> as frontend, backend or fullstack developer, and for <strong>freelance</strong> projects as well!</p>
+      <div class="arrow">
+        <p>Scroll down!</p>
+        <a href="#about"><img src="images/arrow.gif" alt="Animated arrow pointing down", id="arrow-img"></a>
       </div>
-
-      <div class="about-section">
-      </div>
-
-
     </div>
 
+    <!-- About section -->
+    <div class="container d-flex align-items-center justify-content-between" id="about">
+      <div>
+        <h2>I am a junior full stack developer.</h2>
+        <p>With a little fondness for back end. <i class="fas fa-heart"></i></p>
+      </div>
+      <div class="arrow">
+        <p>Keep on scrolling!</p>
+        <a href="#experience"><img src="images/arrow.gif" alt="Animated arrow pointing down", id="arrow-img"></a>
+      </div>
+    </div>
+
+    <!-- Experience section -->
+    <div class="container" id="experience">
+      <div class="row d-flex justify-content-around">
+        <!-- Languages card -->
+        <div class="card col-sm-12 col-md-4 shadow">
+          <h3><span class="half-highlight">Languages</span></h3>
+          <table>
+            <tr>
+              <td class="cell-title">Ruby</td>
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+            <tr>
+              <td class="cell-title">HTML</td>
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+            <tr>
+              <td class="cell-title">CSS</td> 
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+            <tr>
+              <td class="cell-title">JavaScript</td> 
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+            <tr>
+              <td colspan="2"><p class="card-subtitle"><strong>Currently learning: </strong></p></td>
+            </tr>
+            <tr>
+              <td class="cell-title">Python</td>
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+          </table>
+        </div>
+        
+        <!-- Frameworks card -->
+        <div class="card col-sm-12 col-md-4 shadow">
+          <h3><span class="half-highlight">Frameworks</span></h3>
+          <table>
+            <tr>
+              <td class="cell-title">Ruby on Rails</td>
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+            <tr>
+              <td colspan="2"><p class="card-subtitle"><strong>Currently learning: </strong></p></td>
+            </tr>
+            <tr>
+              <td class="cell-title">Django</td>
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Experience card -->
+        <div class="card col-sm-12 col-md-4 shadow">
+          <h3><span class="half-highlight">Experience</span></h3>
+          <table>
+            <tr>
+              <td class="cell-title">Events</td>
+              <td>3 years</td>
+            </tr>
+            <tr>
+              <td class="cell-title">Tourism</td>
+              <td>3 years</td>
+            </tr>
+            <tr>
+              <td class="cell-title">Marketing</td>
+              <td>3 years</td>
+            </tr>
+            <tr>
+              <td class="cell-title">Coding</td>
+              <td>3 months</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <p class="card-subtitle"><strong>Interested in knowing more?<br></strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" id="experience-links">
+                  <a href="https://www.linkedin.com/in/diepstephanie/">
+                    <p><i class="fab fa-linkedin-in"></i> LinkedIn</p>
+                  </a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" id="experience-links">
+                  <a href="https://github.com/sthyma">
+                    <p><i class="fab fa-github"></i> Github</p>
+                  </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Interests card -->
+        <div class="card col-sm-12 col-md-4 shadow">
+          <h3><span class="half-highlight">Interests</span></h3>
+          <table>
+            <tr>
+              <td class="cell-title-interest">Events industry</td>
+            </tr>
+            <tr>
+              <td class="cell-title-interest">Business efficiency</td>
+            </tr>
+            <tr>
+              <td class="cell-title-interest">Technology</td>
+            </tr>
+            <tr>
+              <td class="cell-title-interest">Web design</td>
+            </tr>
+            <tr>
+              <td class="cell-title-interest">Running</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects section -->
+    <div class="container" id="projects">
+      <h2>What projects have I worked on?</h2>
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="row d-flex justify-content-around">
+          <!-- Don't Die Food -->
+          <div class="card col-sm-12 col-md-4 shadow">
+            <a href="http://dontdiefood.com/">
+              <h3><span class="half-highlight">Don't Die Food</span></h3>
+              <table>
+                <tr>
+                  <td>
+                    <div class="d-flex justify-content-center">
+                      <img src="https://image.flaticon.com/icons/svg/826/826984.svg" alt="Avocado">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>A mobile application to save food</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <small>Team<br> Role: Back end dev<br> Stack: Ruby on Rails, HTML, CSS, JavaScript</small>
+                  </td>
+                </tr>
+              </table>
+            </a>
+          </div>
+
+          <!-- BlockWagon -->
+          <div class="card col-sm-12 col-md-4 shadow">
+            <a href="http://blockwagon.herokuapp.com/">
+              <h3><span class="half-highlight">BlockWagon</span></h3>
+              <table>
+                <tr>
+                  <td>
+                    <div class="d-flex justify-content-center">
+                      <img src="https://image.flaticon.com/icons/svg/860/860341.svg" alt="Videocassette">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>An application to rent videocassettes</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <small>Team<br> Role: Full stack dev<br> Stack: Ruby on Rails, HTML, CSS, JavaScript</small>
+                  </td>
+                </tr>
+              </table>
+            </a>
+          </div>
+
+          <!-- Hey Miss Cocktail -->
+          <div class="card col-sm-12 col-md-4 shadow">
+            <a href="http://heymisscocktail.herokuapp.com/">
+              <h3><span class="half-highlight">Hey Miss Cocktail</span></h3>
+              <table>
+                <tr>
+                  <td>
+                    <div class="d-flex justify-content-center">
+                      <img src="https://image.flaticon.com/icons/svg/3076/3076073.svg" alt="Cocktail">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>A cocktail recipe application</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <small>Solo<br> Role: Full stack dev<br> Stack: Ruby on Rails, HTML, CSS, JavaScript</small>
+                  </td>
+                </tr>
+              </table>
+            </a>
+          </div>
+
+          <!-- Beast Mode -->
+          <div class="card col-sm-12 col-md-4 shadow">
+            <a href="http://beastmodeon.herokuapp.com/">
+              <h3><span class="half-highlight">Beast Mode</span></h3>
+              <table>
+                <tr>
+                  <td>
+                    <div class="d-flex justify-content-center">
+                      <img src="https://image.flaticon.com/icons/svg/2966/2966054.svg" alt="Lion">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>A library of coding languages lessons</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <small>Team<br> Role: Full stack dev<br> Stack: Ruby on Rails, HTML, CSS, JavaScript</small>
+                  </td>
+                </tr>
+              </table>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact section -->
+    <!-- <div class="container d-flex align-items-center justify-content-between" id="contact">
+      <div>
+        <h2>Interested in contacting me?</h2>
+        <p>Don't hesitate!</p>
+      </div>
+    </div> -->
   </body>
 </html>

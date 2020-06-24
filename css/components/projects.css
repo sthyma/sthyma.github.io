@@ -1,0 +1,24 @@
+#projects {
+  height: 100vh;
+  margin-top: 64px;
+}
+
+#projects h2 {
+  padding: 32px 0 16px 0;
+}
+
+#projects img {
+  height: 50px;
+  margin: 12px 0;
+}
+
+#projects a {
+  text-decoration: none;
+  color: black;
+}
+
+#projects a:hover {
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+  cursor: pointer;
+}

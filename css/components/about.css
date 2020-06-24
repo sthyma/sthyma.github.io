@@ -1,0 +1,15 @@
+#about {
+  height: 100vh;
+  position: relative;
+  transition: 0.3s;
+}
+
+#about .arrow {
+  position: absolute;
+  /* left: 930px; */
+  top: 575px;
+}
+
+#about .fa-heart {
+  color: rgb(209, 63, 63);
+}
