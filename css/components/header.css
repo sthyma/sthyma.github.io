@@ -1,4 +1,4 @@
-.header {
+#header {
   height: 100vh;
   transition: 0.3s;
   position: relative;
@@ -8,7 +8,7 @@
   width: 100px;
 }
 
-.header .arrow {
+#header .arrow {
   position: absolute;
   /* left: 930px; */
   top: 570px;
