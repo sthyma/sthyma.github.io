@@ -1,5 +1,6 @@
 #experience {
   height: 100vh;
+  padding-top: 64px;
 }
 
 #experience ul {
@@ -17,4 +18,27 @@
 
 #experience i {
   font-size: 12px;
+}
+
+#experience-links i {
+  color: black;
+  font-size: 16px;
+  margin-right: 12px;
+}
+
+#experience-links a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+#experience-links p {
+  /* text-align: center; */
+  font-size: small;
+  margin-bottom: 2px;
+}
+
+#experience-links a:hover {
+  color: #f4b83f;
+  font-weight: bolder;
 }

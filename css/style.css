@@ -8,17 +8,7 @@
 @import url('components/experience.css');
 @import url('components/card.css');
 
-h1 {
-  /* font-size: 70px; */
-  font-family: 'Roboto Slab', serif;
-}
-
-h2 {
-  font-family: 'Roboto Slab', serif;
-  color: #444440;
-}
-
-p {
+body {
   font-family: 'Roboto Slab', serif;
 }
 

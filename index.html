@@ -11,18 +11,8 @@
   </head>
   
   <body>
-    <!-- <div class="my-navbar d-flex justify-content-end">
-      <div class="navbar-links">
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
-      </div>
-    </div> -->
-
+    <!-- Intro section -->
     <div class="header container d-flex align-items-center justify-content-between">
-      <!-- <div class="home-pic ">
-        <img src="images/builder.svg" alt="Woman building a website">
-      </div> -->
       <div class="name">
         <h1>Hi, my name is Stephanie.</h1>
       </div>
@@ -32,10 +22,11 @@
       </div>
     </div>
 
+    <!-- About section -->
     <div class="container d-flex align-items-center justify-content-between" id="about">
       <div>
         <h2>I am a junior full stack developer.</h2>
-        <p>I love everything tech-related.</p>
+        <p>With a little fondness for back end. <i class="fas fa-heart"></i></p>
       </div>
       <div class="arrow">
         <p>Keep on scrolling!</p>
@@ -43,51 +34,180 @@
       </div>
     </div>
 
-    <div class="container d-flex align-items-center justify-content-between" id="experience">
-      <div class="card shadow">
-        <h3><span class="half-highlight">Languages</span></h3>
-        <ul>
-          <li>Ruby 
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="not-colored-square"></i>
-          </li>
-          <li>HTML 
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="not-colored-square"></i>
-          </li>
-          <li>CSS 
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="not-colored-square"></i>
-          </li>
-          <li>JavaScript 
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="not-colored-square"></i>
-            <i class="fas fa-square-full" id="not-colored-square"></i>
-          </li>
-        </ul>
-        <p><strong>Currently learning: </strong></p>
-        <ul>
-          <li>Python
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="colored-square"></i>
-            <i class="fas fa-square-full" id="not-colored-square"></i>
-            <i class="fas fa-square-full" id="not-colored-square"></i>
-          </li>
-        </ul>
+    <!-- Experience section -->
+    <div class="container" id="experience">
+      <div class="row d-flex justify-content-around">
+        <!-- Languages card -->
+        <div class="card col-sm-12 col-md-4 shadow">
+          <h3><span class="half-highlight">Languages</span></h3>
+          <table>
+            <tr>
+              <td class="cell-title">Ruby</td>
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+            <tr>
+              <td class="cell-title">HTML</td>
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+            <tr>
+              <td class="cell-title">CSS</td> 
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+            <tr>
+              <td class="cell-title">JavaScript</td> 
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+            <tr>
+              <td colspan="2"><p class="card-subtitle"><strong>Currently learning: </strong></p></td>
+            </tr>
+            <tr>
+              <td class="cell-title">Python</td>
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+          </table>
+        </div>
+        
+        <!-- Frameworks card -->
+        <div class="card col-sm-12 col-md-4 shadow">
+          <h3><span class="half-highlight">Frameworks</span></h3>
+          <table>
+            <tr>
+              <td class="cell-title">Ruby on Rails</td>
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+            <tr>
+              <td colspan="2"><p class="card-subtitle"><strong>Currently learning: </strong></p></td>
+            </tr>
+            <tr>
+              <td class="cell-title">Django</td>
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Experience card -->
+        <div class="card col-sm-12 col-md-4 shadow">
+          <h3><span class="half-highlight">Experience</span></h3>
+          <table>
+            <tr>
+              <td class="cell-title">Events</td>
+              <td>3 years</td>
+            </tr>
+            <tr>
+              <td class="cell-title">Tourism</td>
+              <td>3 years</td>
+            </tr>
+            <tr>
+              <td class="cell-title">Marketing</td>
+              <td>3 years</td>
+            </tr>
+            <tr>
+              <td class="cell-title">Coding</td>
+              <td>3 months</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <p class="card-subtitle"><strong>Interested in knowing more?<br></strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" id="experience-links">
+                  <a href="https://www.linkedin.com/in/diepstephanie/">
+                    <p><i class="fab fa-linkedin-in"></i> LinkedIn</p>
+                  </a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" id="experience-links">
+                  <a href="https://github.com/sthyma">
+                    <p><i class="fab fa-github"></i> Github</p>
+                  </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Interests card -->
+        <div class="card col-sm-12 col-md-4 shadow">
+          <h3><span class="half-highlight">Interests</span></h3>
+          <table>
+            <tr>
+              <td class="cell-title-interest">Events industry</td>
+            </tr>
+            <tr>
+              <td class="cell-title-interest">Business efficiency</td>
+            </tr>
+            <tr>
+              <td class="cell-title-interest">Technology</td>
+            </tr>
+            <tr>
+              <td class="cell-title-interest">Web design</td>
+            </tr>
+            <tr>
+              <td class="cell-title-interest">Running</td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
+
+    <!-- Projects card -->
+    <!-- <div class="card col-sm-12 col-md-3 shadow">
+      <h3><span class="half-highlight">Projects</span></h3>
+      <table>
+        <tr>
+          <td class="cell-title"><a href="#">Don't Die Food</a></td>
+          <td><p>Team / Backend</p></td>
+        </tr>
+        <tr>
+          <td class="cell-title"><a href="#">BlockWagon</a></td>
+          <td><p>Team / Full stack</p></td>
+        </tr>
+        <tr>
+          <td class="cell-title"><a href="#"><small>Hey Miss Cocktail</small></a></td>
+          <td><p>Solo / Full stack</p></td>
+        </tr>
+        <tr>
+          <td colspan="2"><p class="card-subtitle"><strong>Currently working on: </strong></p></td>
+        </tr>
+        <tr>
+          <td class="cell-title">Django</td>
+          <td><i class="fas fa-square-full" id="colored-square"></i>
+          <i class="fas fa-square-full" id="not-colored-square"></i>
+          <i class="fas fa-square-full" id="not-colored-square"></i>
+          <i class="fas fa-square-full" id="not-colored-square"></i>
+          <i class="fas fa-square-full" id="not-colored-square"></i></td>
+        </tr>
+      </table>
+    </div> -->
 
   </body>
 </html>
