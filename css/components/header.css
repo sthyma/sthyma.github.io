@@ -10,3 +10,22 @@
 .name {
   padding-top: 300px;
 }
+
+button {
+  position: fixed;
+  right: 50px;
+  bottom: 40px;
+  border: none;
+  background-color: #f4b83f;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #f3c363;
+  color: black;
+  font-weight: bold;
+}
