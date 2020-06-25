@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Stephanie Diep - Fullstack web developer</title>
+    <title>Stephanie Diep - Full stack web developer</title>
+    <!-- Default meta tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio of Stephanie Diep, junior web developer.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Ruby on Rails, Python, web developer, junior">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Social media meta tags -->
+    <meta property="og:title" content="Stephanie Diep - Full stack web developer">
+    <meta property="og:description" content="Portfolio of Stephanie Diep, junior web developer.">
+    <meta property="og:image" content="images/rice.svg">
+    <meta property="og:url" content="http://sthyma.github.io/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg" href="images/rice.svg">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/svg" href="https://image.flaticon.com/icons/svg/2572/2572648.svg">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   </head>
   
@@ -99,6 +113,14 @@
               <i class="fas fa-square-full" id="not-colored-square"></i></td>
             </tr>
             <tr>
+              <td class="cell-title">Bootstrap</td>
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+            <tr>
               <td colspan="2"><p class="card-subtitle"><strong>Currently learning: </strong></p></td>
             </tr>
             <tr>
@@ -117,38 +139,16 @@
           <h3><span class="half-highlight">Experience</span></h3>
           <table>
             <tr>
-              <td class="cell-title">Events</td>
-              <td>3 years</td>
+              <td class="experience-desc">
+                <small>
+                  After a bachelor's in business administration, I worked for a few years in the <strong>events and marketing</strong> industries, when I decided that I wanted to dive into the <strong>tech world</strong>. That's why I started learning how to code. Excited to start my tech journey!
+                </small>
+              </td>
             </tr>
             <tr>
-              <td class="cell-title">Tourism</td>
-              <td>3 years</td>
-            </tr>
-            <tr>
-              <td class="cell-title">Marketing</td>
-              <td>3 years</td>
-            </tr>
-            <tr>
-              <td class="cell-title">Coding</td>
-              <td>3 months</td>
-            </tr>
-            <tr>
-              <td colspan="2">
+              <td colspan="2" class="contact-me">
                 <p class="card-subtitle"><strong>Interested in knowing more?<br></strong></p>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2" id="experience-links">
-                  <a href="https://www.linkedin.com/in/diepstephanie/">
-                    <p><i class="fab fa-linkedin-in"></i> LinkedIn</p>
-                  </a>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2" id="experience-links">
-                  <a href="https://github.com/sthyma">
-                    <p><i class="fab fa-github"></i> Github</p>
-                  </a>
+                <a href="/#contact">Contact me!</a>
               </td>
             </tr>
           </table>
@@ -191,7 +191,7 @@
                 <tr>
                   <td>
                     <div class="d-flex justify-content-center">
-                      <img src="https://image.flaticon.com/icons/svg/826/826984.svg" alt="Avocado">
+                      <img src="images/avocado.svg" alt="Avocado">
                     </div>
                   </td>
                 </tr>
@@ -217,7 +217,7 @@
                 <tr>
                   <td>
                     <div class="d-flex justify-content-center">
-                      <img src="https://image.flaticon.com/icons/svg/860/860341.svg" alt="Videocassette">
+                      <img src="images/videocassette.svg" alt="Videocassette">
                     </div>
                   </td>
                 </tr>
@@ -243,7 +243,7 @@
                 <tr>
                   <td>
                     <div class="d-flex justify-content-center">
-                      <img src="https://image.flaticon.com/icons/svg/3076/3076073.svg" alt="Cocktail">
+                      <img src="images/cocktail.svg" alt="Cocktail">
                     </div>
                   </td>
                 </tr>
@@ -269,7 +269,7 @@
                 <tr>
                   <td>
                     <div class="d-flex justify-content-center">
-                      <img src="https://image.flaticon.com/icons/svg/2966/2966054.svg" alt="Lion">
+                      <img src="images/lion.svg" alt="Lion">
                     </div>
                   </td>
                 </tr>
@@ -293,16 +293,19 @@
 
     <!-- Contact section -->
     <div class="container d-flex align-items-center justify-content-between flex-column" id="contact">
-      <div>
+      <div class="contact-message">
         <h2>Feel free to contact me anytime!</h2>
       </div>
-      <div class="form">
-        <form>
-          <input type="text" name="name" id="name_field" placeholder="Enter your full name"><br>
-          <input type="text" name="phonenumber" id="phone_field" placeholder="Enter your phone number"><br>
-          <input type="text" name="message" id="message_field" placeholder="Enter your message"><br>
-          <input type="submit" id="form-btn" value="Send">
-        </form>
+      <div class="contact-info">
+        <a href="mailto:stephaniediep@outlook.com" class="contact-links">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/sthyma" class="contact-links">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/diepstephanie/" class="contact-links">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
       </div>
     </div>
   </body>

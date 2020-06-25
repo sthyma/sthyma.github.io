@@ -1,3 +1,27 @@
 #contact {
-  padding-top: 32px;
+  padding: 64px 0;
+  margin-top: 32px;
+}
+
+.contact-info {
+  margin-top: 32px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-info a:hover {
+  text-decoration: none;
+  color: #f4b83f;
+}
+
+.contact-info i {
+  padding-left: 32px;
+  font-size: 32px;
+}
+
+.contact-info .fa-envelope {
+  padding-left: 0;
 }
