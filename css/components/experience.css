@@ -1,6 +1,5 @@
 #experience {
-  height: 100vh;
-  padding-top: 32px;
+  padding-top: 64px;
 }
 
 #experience ul {
@@ -16,29 +15,19 @@
   color: rgb(211, 211, 211);
 }
 
-#experience i {
-  font-size: 12px;
-}
-
-#experience-links i {
-  color: black;
-  font-size: 16px;
-  margin-right: 12px;
-}
-
-#experience-links a {
+.contact-me a {
   text-decoration: none;
   color: black;
   transition: 0.3s;
 }
 
-#experience-links p {
-  /* text-align: center; */
-  font-size: small;
-  margin-bottom: 2px;
+.contact-me a:hover {
+  text-decoration: none;
+  background-color: #f4b83f;
+  color: white;
+  padding: 0 8px;
 }
 
-#experience-links a:hover {
-  color: #f4b83f;
-  font-weight: bolder;
+.experience-desc {
+  text-align: justify;
 }

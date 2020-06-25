@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Stephanie Diep - Fullstack web developer</title>
+    <title>Stephanie Diep - Full stack web developer</title>
+    <!-- Default meta tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio of Stephanie Diep, junior web developer.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Ruby on Rails, Python, web developer, junior">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Social media meta tags -->
+    <meta property="og:title" content="Stephanie Diep - Full stack web developer">
+    <meta property="og:description" content="Portfolio of Stephanie Diep, junior web developer.">
+    <meta property="og:image" content="images/coding.jpg">
+    <meta property="og:url" content="http://sthyma.github.io/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg" href="images/rice.svg">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/svg" href="https://image.flaticon.com/icons/svg/2572/2572648.svg">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   </head>
   
   <body>
     <!-- Intro section -->
-    <div class="container d-flex align-items-center justify-content-between" id="header">
+    <div class="container d-flex align-items-start justify-content-between flex-column" id="header">
       <div class="name">
         <h1>Hi, my name is Stephanie.</h1>
       </div>
@@ -22,8 +36,8 @@
     </div>
 
     <!-- About section -->
-    <div class="container d-flex align-items-center justify-content-between" id="about">
-      <div>
+    <div class="container d-flex align-items-start justify-content-between flex-column" id="about">
+      <div class="description">
         <h2>I am a junior full stack developer.</h2>
         <p>With a little fondness for back end. <i class="fas fa-heart"></i></p>
       </div>
@@ -37,7 +51,7 @@
     <div class="container" id="experience">
       <div class="row d-flex justify-content-around">
         <!-- Languages card -->
-        <div class="card col-sm-12 col-md-4 shadow">
+        <div class="card col-sm-12 col-md-12 col-lg-4 shadow">
           <h3><span class="half-highlight">Languages</span></h3>
           <table>
             <tr>
@@ -87,11 +101,19 @@
         </div>
         
         <!-- Frameworks card -->
-        <div class="card col-sm-12 col-md-4 shadow">
+        <div class="card col-sm-12 col-md-12 col-lg-4 shadow">
           <h3><span class="half-highlight">Frameworks</span></h3>
           <table>
             <tr>
               <td class="cell-title">Ruby on Rails</td>
+              <td><i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="colored-square"></i>
+              <i class="fas fa-square-full" id="not-colored-square"></i></td>
+            </tr>
+            <tr>
+              <td class="cell-title">Bootstrap</td>
               <td><i class="fas fa-square-full" id="colored-square"></i>
               <i class="fas fa-square-full" id="colored-square"></i>
               <i class="fas fa-square-full" id="colored-square"></i>
@@ -113,49 +135,27 @@
         </div>
 
         <!-- Experience card -->
-        <div class="card col-sm-12 col-md-4 shadow">
+        <div class="card col-sm-12 col-md-12 col-lg-4 shadow">
           <h3><span class="half-highlight">Experience</span></h3>
           <table>
             <tr>
-              <td class="cell-title">Events</td>
-              <td>3 years</td>
+              <td class="experience-desc">
+                <small>
+                  After a bachelor's in business administration, I worked for a few years in the <strong>events and marketing</strong> industries, when I decided that I wanted to dive into the <strong>tech world</strong>. That's why I started learning how to code. Excited to start my tech journey!
+                </small>
+              </td>
             </tr>
             <tr>
-              <td class="cell-title">Tourism</td>
-              <td>3 years</td>
-            </tr>
-            <tr>
-              <td class="cell-title">Marketing</td>
-              <td>3 years</td>
-            </tr>
-            <tr>
-              <td class="cell-title">Coding</td>
-              <td>3 months</td>
-            </tr>
-            <tr>
-              <td colspan="2">
+              <td colspan="2" class="contact-me">
                 <p class="card-subtitle"><strong>Interested in knowing more?<br></strong></p>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2" id="experience-links">
-                  <a href="https://www.linkedin.com/in/diepstephanie/">
-                    <p><i class="fab fa-linkedin-in"></i> LinkedIn</p>
-                  </a>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2" id="experience-links">
-                  <a href="https://github.com/sthyma">
-                    <p><i class="fab fa-github"></i> Github</p>
-                  </a>
+                <a href="/#contact">Contact me!</a>
               </td>
             </tr>
           </table>
         </div>
 
         <!-- Interests card -->
-        <div class="card col-sm-12 col-md-4 shadow">
+        <div class="card col-sm-12 col-md-12 col-lg-4 shadow">
           <h3><span class="half-highlight">Interests</span></h3>
           <table>
             <tr>
@@ -184,14 +184,14 @@
       <div class="container d-flex align-items-center justify-content-between">
         <div class="row d-flex justify-content-around">
           <!-- Don't Die Food -->
-          <div class="card col-sm-12 col-md-4 shadow">
+          <div class="card col-sm-12 col-md-12 col-lg-4 shadow">
             <a href="http://dontdiefood.com/">
               <h3><span class="half-highlight">Don't Die Food</span></h3>
               <table>
                 <tr>
                   <td>
                     <div class="d-flex justify-content-center">
-                      <img src="https://image.flaticon.com/icons/svg/826/826984.svg" alt="Avocado">
+                      <img src="images/avocado.svg" alt="Avocado">
                     </div>
                   </td>
                 </tr>
@@ -210,14 +210,14 @@
           </div>
 
           <!-- BlockWagon -->
-          <div class="card col-sm-12 col-md-4 shadow">
+          <div class="card col-sm-12 col-md-12 col-lg-4 shadow">
             <a href="http://blockwagon.herokuapp.com/">
               <h3><span class="half-highlight">BlockWagon</span></h3>
               <table>
                 <tr>
                   <td>
                     <div class="d-flex justify-content-center">
-                      <img src="https://image.flaticon.com/icons/svg/860/860341.svg" alt="Videocassette">
+                      <img src="images/videocassette.svg" alt="Videocassette">
                     </div>
                   </td>
                 </tr>
@@ -236,14 +236,14 @@
           </div>
 
           <!-- Hey Miss Cocktail -->
-          <div class="card col-sm-12 col-md-4 shadow">
+          <div class="card col-sm-12 col-md-12 col-lg-4 shadow">
             <a href="http://heymisscocktail.herokuapp.com/">
               <h3><span class="half-highlight">Hey Miss Cocktail</span></h3>
               <table>
                 <tr>
                   <td>
                     <div class="d-flex justify-content-center">
-                      <img src="https://image.flaticon.com/icons/svg/3076/3076073.svg" alt="Cocktail">
+                      <img src="images/cocktail.svg" alt="Cocktail">
                     </div>
                   </td>
                 </tr>
@@ -262,14 +262,14 @@
           </div>
 
           <!-- Beast Mode -->
-          <div class="card col-sm-12 col-md-4 shadow">
+          <div class="card col-sm-12 col-md-12 col-lg-4 shadow">
             <a href="http://beastmodeon.herokuapp.com/">
               <h3><span class="half-highlight">Beast Mode</span></h3>
               <table>
                 <tr>
                   <td>
                     <div class="d-flex justify-content-center">
-                      <img src="https://image.flaticon.com/icons/svg/2966/2966054.svg" alt="Lion">
+                      <img src="images/lion.svg" alt="Lion">
                     </div>
                   </td>
                 </tr>
@@ -292,11 +292,21 @@
     </div>
 
     <!-- Contact section -->
-    <!-- <div class="container d-flex align-items-center justify-content-between" id="contact">
-      <div>
-        <h2>Interested in contacting me?</h2>
-        <p>Don't hesitate!</p>
+    <div class="container d-flex align-items-center justify-content-between flex-column" id="contact">
+      <div class="contact-message">
+        <h2>Feel free to contact me anytime!</h2>
       </div>
-    </div> -->
+      <div class="contact-info">
+        <a href="mailto:stephaniediep@outlook.com" class="contact-links">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/sthyma" class="contact-links">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/diepstephanie/" class="contact-links">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
   </body>
 </html>
